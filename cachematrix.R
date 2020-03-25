@@ -41,6 +41,6 @@ cacheSolve <- function(x, ...) {
   data <- x$get()
   imatrix <- solve(data, ...)
   x$setinverse(imatrix)
-  i
+  imatrix
 }
 
